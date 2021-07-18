@@ -1,0 +1,23 @@
+{
+  "name": "chat-video-messenger",
+  "version": "1.0.0",
+  "description": "Front-end implementation of messenger app desgins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0liv3ir4Luc4s/chat-video-messenger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0liv3ir4Luc4s/chat-video-messenger/issues"
+  },
+  "homepage": "https://github.com/0liv3ir4Luc4s/chat-video-messenger#readme",
+  "devDependencies": {
+    "sass": "^1.35.2"
+  }
+}
