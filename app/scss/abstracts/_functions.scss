@@ -2,3 +2,7 @@
   $color: map-get(map-get($colors, $base), $shade);
   @return $color;
 }
+@function font-weight($weight: 400) {
+  $font-weight: map-get($font-weights, $weight);
+  @return $font-weight;
+}
