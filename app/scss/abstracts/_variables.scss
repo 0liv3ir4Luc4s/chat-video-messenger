@@ -1,3 +1,10 @@
+$font-stack: 'Inter', sans-serif;
+$font-weights: (
+    regular: 400,
+    medium: 500,
+    semi-bold: 600,
+    bold: 700,
+);
 $colors: (
     primary: (
         base: #377DFF,
