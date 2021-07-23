@@ -1,0 +1,29 @@
+$font-stack: 'Inter', sans-serif;
+$font-weights: (
+    regular: 400,
+    medium: 500,
+    semi-bold: 600,
+    bold: 700,
+);
+$colors: (
+    primary: (
+        base: #377DFF,
+        light: #E5F1FF,
+    ),
+    secondary: (
+        base: #d4b9b9,
+        middle: #F0F0F0,
+        light: #F7F7F9,
+    ),
+    online: (
+        base: #2DCA8C,
+    ),
+    offline: (
+        base: #FF715B,
+    ),
+    black: (
+        base: #243443,
+        middle: #58616A,
+        light: #AAB0B7,
+    ),
+);
