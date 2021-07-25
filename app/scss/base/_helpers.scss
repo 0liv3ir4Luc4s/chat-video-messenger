@@ -6,3 +6,8 @@
         }
     }
 }
+@each $weight, $value in $font-weights {
+    .font-#{$weight} {
+        font-weight: #{$value};
+    }
+}
