@@ -1,0 +1,13 @@
+@use '../abstracts' as *;
+@each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+        .text-color-#{$color}-#{$shade} {
+            color: #{$value};
+        }
+    }
+}
+@each $weight, $value in $font-weights {
+    .font-#{$weight} {
+        font-weight: #{$value};
+    }
+}
