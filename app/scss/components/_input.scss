@@ -1,0 +1,37 @@
+@use '../abstracts/functions' as *;
+.div {
+    position: relative;
+}
+.input {
+    outline: none;
+    background: none;
+    padding: 1.125rem;
+    border: 0.0625rem solid clr('black', light);
+    border-radius: .5rem;
+}
+.floating-label {
+    display: none;
+    position: absolute;
+    top: -.65rem;
+    left: 1rem;
+    font-size: .75rem;
+    font-weight: fw(medium);
+    color: clr('black', light);
+    background-color: clr(secondary, light);
+}
+
+.input:focus + .floating-label, .input:not(:placeholder-shown).input:not(:focus)+ .floating-label {
+    display: inline;
+}
+
+.input:focus + .floating-label {
+    color: clr(primary);
+}
+
+.input:not(:placeholder-shown).input:not(:focus)+ .floating-label {
+    color: clr('black', light);
+}
+
+.input:focus {
+    border: 1px solid clr(primary);
+}
