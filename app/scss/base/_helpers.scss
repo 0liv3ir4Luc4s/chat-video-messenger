@@ -6,6 +6,13 @@
         }
     }
 }
+@each $color, $shades in $colors {
+    @each $shade, $value in $shades {
+        .background-color-#{$color}-#{$shade} {
+            background-color: #{$value};
+        }
+    }
+}
 @each $weight, $value in $font-weights {
     .font-#{$weight} {
         font-weight: #{$value};
