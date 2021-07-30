@@ -15,3 +15,11 @@ hr {
     border: 0.0625rem solid clr('black', middle);
     margin: 0 1.25rem;
 }
+a {
+    font-size: 0.875rem;
+    margin-bottom: 6.375rem;
+}
+p:last-of-type {
+    @extend a;
+    margin: 2.5rem 0 0.3125rem;
+}
