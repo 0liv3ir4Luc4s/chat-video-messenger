@@ -1,4 +1,6 @@
-@use '../abstracts/variables' as *;
+@use '../abstracts' as *;
 body {
     font-family: $font-stack;
+    color: clr('black', base);
+    font-weight: fw(medium);
 }
